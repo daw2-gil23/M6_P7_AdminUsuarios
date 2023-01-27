@@ -43,7 +43,7 @@ export const header ={
                 router.eliminar(event)
             }
             if(event.target.classList.contains('editar')){
-                router.editar()
+                router.editar(event)
             }
         })
 

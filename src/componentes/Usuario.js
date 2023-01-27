@@ -17,5 +17,11 @@ export const usuarios = [
         nick:"Luna",
         email:"luna@gmail.com",
         password:"luna"
+    },
+    {
+        id:4,
+        nick:"Juan",
+        email:"juan@gmail.com",
+        password:"1234"
     }
 ]

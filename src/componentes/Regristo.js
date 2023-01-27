@@ -20,7 +20,7 @@ export const registro = {
     `,
     script: ()=>{
         const botonRegistro=document.querySelector("#enviar")
-        //Escuchamos evento y llamamos a mostraUsuari
+
         botonRegistro.addEventListener("click", router.añadir)
         
         const input = document.querySelector("input")
