@@ -32,6 +32,10 @@ export const header ={
         })
 
         //admin
+        document.querySelector('#about').addEventListener('click',()=>{
+            router.about()
+        })
+
         document.querySelector('#admin').addEventListener('click',()=>{
             router.admin()
         })

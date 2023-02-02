@@ -4,6 +4,8 @@ import multiavatar from '@multiavatar/multiavatar/esm'
 export const editarPerfil = {
     template:`
     <form id="formEditar">
+        <input type="hidden" id="id">
+        </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nick</label>
             <input type="text" class="form-control nicke" id="nickE" aria-describedby="nick">
